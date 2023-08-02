@@ -1,0 +1,43 @@
+.navbar .nav-link.active:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #58a6ff;
+  margin-top: -2px;
+  text-underline-position: under;
+}
+.nav-link {
+  margin-top: 3px;
+  font-family: Plex Mono, monospace;
+  margin-right: 11px;
+}
+.navlink:hover {
+  text-decoration: none;
+  color: #58a6ff;
+}
+.navLinkDiv {
+  margin-top: 5px;
+  margin-right: 1px;
+}
+.navlink {
+  color: #58a6ff;
+  font-size: 14px !important;
+  position: relative;
+}
+.navbar {
+  background-color: #424242;
+  height: 64px;
+  padding-left: 43px !important;
+  padding-right: 20px !important;
+}
+.navbtn {
+  font-size: 13px !important;
+  text-decoration: none;
+  background-color: rgba(201, 209, 217, 0.08);
+  color: #c9d1d9;
+  border: 1px solid rgba(255, 255, 255, 0.23) !important;
+  padding: 8px 15px !important;
+}
+.navMargin {
+  margin-left: 50%;
+}
